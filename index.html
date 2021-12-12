@@ -1,8 +1,47 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>D&D 5e Character Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="generator.js" async></script>
+</head>
 <body>
 
-<h1>D&D 5E Character Generator</h1>
+<h1>D&D 5e Character Generator</h1>
+
+<table class="results">
+    <tr>
+        <th>Race:</th>
+        <td id="race"></td>
+    </tr>
+    <tr>
+        <th>Class:</th>
+        <td id="class"></td>
+    </tr>
+    <tr>
+        <th>Background:</th>
+        <td id="background"></td>
+    </tr>
+    <tr>
+        <th>Alignment</th>
+        <td id="alignment"></td>
+    </tr>
+    <tr>
+        <th>Personality Trait:</th>
+        <td id="trait"></td>
+    </tr>
+    <tr>
+        <th>Flaw:</th>
+        <td id="flaw"></td>
+    </tr>
+    <tr>
+        <th>Quirk:</th>
+        <td id="quirk"></td>
+    </tr>
+</table>
+
+<button onclick="generateCharacter()">Generate a character</button>
+
 
 </body>
 </html>
