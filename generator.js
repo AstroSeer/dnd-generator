@@ -10,4 +10,6 @@ function generateCharacter(){
     console.log("Generating a character...");
     var randomRaceIndex = Math.floor(Math.random() * RACES.length);
     console.log(RACES[randomRaceIndex]);
+    var randomClassIndex = Math.floor(Math.random() * CLASSES.length);
+    console.log(CLASSES[randomClassIndex]);
 }
