@@ -13,6 +13,7 @@ let characterString = ["This character is a ", "[RACE]", " ", "[CLASS]", " with 
 function generateCharacter(){
     let race, playerclass, background, height, weight, trait, quirk, bond;
 
+    // Fill in attributes according to grammar rules
     console.log("Generating a character...");
     let randomRaceIndex = random(RACES.length);
     // console.log(RACES[randomRaceIndex]);
@@ -22,6 +23,8 @@ function generateCharacter(){
     //console.log(CLASSES[randomClassIndex]);
     playerclass = CLASSES[randomClassIndex];
 
+
+    // Fill in the finished string
     characterString[1] = race;
     characterString[3] = playerclass;
     //characterString[6] = background;
