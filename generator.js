@@ -1,9 +1,9 @@
-const RACES = ["Aarakocra", "Aasimar", "Bugbear", "Centaur", "Changeling", "Dragonborn", "Dwarf", "Elf", "Fairy", "Firbolg", "Genasi", "Gith", "Gnome", "Goblin", "Goliath", "Half-elf", 
-    "Half-orc", "Halfing", "Harengon", "Hobgoblin", "Human", "Kalashtar", "Kenku", "Kobold", "Leonin", "Lizardfolk", "Loxodon", "Minotaur", "Orc", "Owlin", "Satyr", "Shifter", 
-    "Simic Hybrid", "Tabaxi", "Tiefling", "Tortle", "Triton", "Vedalken", "Warforged", "Yuan-Ti Pureblood"];
+const RACES = ["an Aarakocra", "an Aasimar", "a Bugbear", "a Centaur", "a Changeling", "a Dragonborn", "a Dwarf", "an Elf", "a Fairy", "a Firbolg", "a Genasi", "a Gith", "a Gnome", "a Goblin", "a Goliath", "a Half-elf", 
+    "a Half-orc", "a Halfing", "a Harengon", "a Hobgoblin", "a Human", "a Kalashtar", "a Kenku", "a Kobold", "a Leonin", "a Lizardfolk", "a Loxodon", "a Minotaur", "an Orc", "an Owlin", "a Satyr", "a Shifter", 
+    "a Simic Hybrid", "a Tabaxi", "a Tiefling", "a Tortle", "a Triton", "a Vedalken", "a Warforged", "a Yuan-Ti Pureblood"];
 const CLASSES = ["Barbarian", "Bard", "Cleric", "Druid", "Fighter", "Monk", "Paladin", "Ranger", "Rogue", "Sorcerer", "Warlock", "Wizard", "Artificer"];
-const BACKGROUNDS = ["Acolyte", "Caravan Specialist", "Charlatan", "City Watch", "Clan Crafter", "Courtier", "Criminal", "Entertainer", "Far Traveler", "Folk Hero", 
-    "Gladiator", "Gambler", "Guild Artisan", "Hermit", "Investigator", "Mercenary Veteran", "Noble", "Outlander", "Sailor", "Soldier", "Urban Bounty Hunter", "Urchin"];
+const BACKGROUNDS = ["an Acolyte", "a Caravan Specialist", "a Charlatan", "a City Watch member", "a Clan Crafter", "a Courtier", "a Criminal", "an Entertainer", "a Far Traveler", "a Folk Hero", 
+    "a Gladiator", "a Gambler", "a Guild Artisan", "a Hermit", "an Investigator", "a Mercenary Veteran", "a Noble", "an Outlander", "a Sailor", "a Soldier", "an Urban Bounty Hunter", "an Urchin"];
 
 const TRAITS = ["can find common ground between the fiercest enemies, empathizing with them and always working toward peace", "quote (or misquote) sacred texts and proverbs in almost every situation", "have a joke for every occasion, especially occasions where humor is inappropriate",
     "lie about almost everything, even when there's no good reason to", "always have a plan for what to do when things go wrong", "are guaranteed to do something if they're told they can't do it", 
@@ -62,7 +62,7 @@ const QUIRKS = ["speak exclusively in rhymes", "bite their nails", "clutch onto 
     "hate the texture of glass", "are susceptible to spoonerisms", "only have one dimple when smiling", "have a weak handshake"
 ];
 
-let characterString = ["This character is a ", "[RACE]", " ", "[CLASS]", " with a background as a(n) ", "[BACKGROUND]", ". Something obvious to many is that they ",
+let characterString = ["This character is ", "[RACE]", " ", "[CLASS]", " with a background as ", "[BACKGROUND]", ". Something obvious to many is that they ",
     "[TRAIT]", ". They also ", "[QUIRK]", ". And they may not be fully aware of it, but they ", "[FLAW]", ". Still, deep down, they ", "[BOND]", "."];
 
 // button onclick
