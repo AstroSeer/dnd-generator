@@ -160,7 +160,7 @@ textarea {
     text-align: center;
     text-decoration: none;
     white-space: nowrap;
-    background-color: #1d7484;
+    background-color: #9d79b0;
     color: #f9f9f9;
     border-radius: 8px;
     border: none;
@@ -172,8 +172,7 @@ textarea {
 }
 
     .button:focus:enabled, .button:hover:enabled, button:hover:enabled {
-        background-color: #982c61;
-        border-color: #982c61;
+        background-color: #b079aa;
         color: #f9f9f9;
         outline: 0;
     }
