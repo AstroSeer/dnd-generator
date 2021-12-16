@@ -17,7 +17,7 @@ const TRAITS = ["can find common ground between the fiercest enemies, empathizin
 ];
 
 
-const FLAWS = ["judge others harshly, and themselves even more severely", "are inflexible in their thinking","are suspicious of strangers and expect the worst of them", 
+const FLAWS = ["judge others harshly - and themselves even more so", "are inflexible in their thinking","are suspicious of strangers and expect the worst of them", 
     "become obsessed with their goals to the detriment of everything else in their life","can't resist a pretty face","always forget plans. If they don't forget it, they'll ignore it", 
     "turn tail and run when things look bad","are secretly (or not so secretly) convinced of the superiority of their own culture over others", 
     "have trouble keeping their true feelings hidden; their sharp tongue constantly lands them in trouble","are quick to assume that someone is trying to cheat them",
@@ -44,7 +44,7 @@ const BONDS = ["have a child who doesn't know them, somewhere out there - and th
 const QUIRKS = ["speak exclusively in rhymes", "bite their nails", "clutch onto their belongings when they sleep", "space out easily", "stub their toes frequently", "have unusually long arms" ,
     "have unusually long legs", "tuck their hair behind their ears frequently", "have a soft, raspy voice", "have a loud, booming voice, regardless of the situation", "are ambidextrous", 
     "clean belongings & surroundings as a nervous habit", "are extremely sloppy", "despise cheese", "are a pathological liar", "rarely laugh", "are an adrenaline junkie", "are overly cautious",
-    "cry when they see small animals", "hate cute things", "are excessively polite", "are excessively rude", "cook well, no matter what it is", "arrive extremely late", "arrive extremely early",
+    "cry when they see small animals", "hate cute things", "are excessively polite", "are excessively rude", "cook well, no matter what it is", "arrive extremely late to everything", "arrive extremely early to everything",
     "have terrible handwriting", "have gorgeous handwriting", "are afraid of spiders", "dress in one color", "are frequently overdressed for every occasion", "are frequently underdressed for every occasion",
     "do not wear shoes", "hate being indoors", "do a lot of meal prep - usually a ten days in advance", "hum when focused", "always take meals with bread", "give perfect presents", 
     "give terrible presents", "leave notes in books for future readers", "assume others' motives too easily", "actively seek approval from others", "always sleep on the floor", 
